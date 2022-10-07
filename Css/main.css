@@ -3,6 +3,17 @@ body {
     height: 100%;
     margin: 0 auto;
 }
+
+/* ================================ */
+        /* Header-1 */
+/* ================================ */
+
+.header-1{
+    height: 64px;
+    align-items: center;
+    display: flex;
+}
+
 .menu-principal{
  width: 100%;
  background-color: #010846; 
@@ -18,11 +29,50 @@ main {
 }
 
 .logo {
-    padding: 16px;
-    width: 70%;
-    float: left;
+    width: 163px;
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+}/* 
+/* ============================================= */
+                /* Header-2 */
+/* ============================================= */ 
+.menu {
+    width: 600px;
+    height: 25px;
+    margin-left: 20px;
 }
 
+#menu-ul {
+    display: flex;
+    width: 600px;
+    padding: 0;
+    margin-top: 4px;
+}
+
+#menu-ul li {
+   margin: 5px;
+}
+
+#menu-ul li {
+    display: inline-block;
+    color: #010846;
+    margin-left: 20px;
+}
+
+#menu-ul li a {
+    color: #010846;
+    text-decoration: none ;
+    font-size: 18px;
+    text-transform: capitalize;
+    
+}
+
+
+
+/* ============================================= */
+                /*  Redes sociais */
+/* ============================================= */ 
 
 .redes-sociais ul li {
     display: inline-block;
@@ -41,19 +91,5 @@ main {
      border-bottom: 3px solid;
 }
 
-.menu ul li {
-    display: inline-block;
-    color: #010846;
-    margin-left: 5px;
-    float: right;
-    width: 20%;
-}
 
-.menu ul li a {
-    color: #010846;
-    text-decoration: none ;
-    font-size: 18px;
-    text-transform: capitalize;
-    
-}
 
