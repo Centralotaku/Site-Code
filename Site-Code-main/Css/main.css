@@ -4,14 +4,11 @@ body {
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
 ul {
 
     padding: 0px !important;
 }
 
-=======
->>>>>>> 8101525f558391a1e07a9162a7424f0714e8ffd9
 /* ================================ */
         /* Header-1 */
 /* ================================ */
@@ -20,7 +17,6 @@ ul {
     height: 64px;
     align-items: center;
     display: flex;
-<<<<<<< HEAD
     align-content: center;
     justify-content: flex-start;
 }
@@ -29,15 +25,6 @@ ul {
  width: 200%;
  background-color: #010846;
  height: 64px;
-=======
-}
-
-.menu-principal{
- width: 100%;
- background-color: #010846; 
- height: 64px;
-
->>>>>>> 8101525f558391a1e07a9162a7424f0714e8ffd9
 }
  
 main {
@@ -52,17 +39,13 @@ main {
     margin-left: 20px;
     align-items: center;
     display: flex;
-<<<<<<< HEAD
     z-index: 9;
-=======
->>>>>>> 8101525f558391a1e07a9162a7424f0714e8ffd9
 }/* 
 /* ============================================= */
                 /* Header-2 */
 /* ============================================= */ 
 .menu {
     width: 600px;
-<<<<<<< HEAD
     height: 2px;
     margin-left: 20px;
     display: flex;
@@ -70,10 +53,6 @@ main {
     align-items: center;
     justify-content: flex-start;
     flex-direction: column-reverse;
-=======
-    height: 25px;
-    margin-left: 20px;
->>>>>>> 8101525f558391a1e07a9162a7424f0714e8ffd9
 }
 
 #menu-ul {
@@ -81,13 +60,10 @@ main {
     width: 600px;
     padding: 0;
     margin-top: 4px;
-<<<<<<< HEAD
     justify-content: flex-end;
     align-content: space-between;
     flex-wrap: nowrap;
     align-items: center;
-=======
->>>>>>> 8101525f558391a1e07a9162a7424f0714e8ffd9
 }
 
 #menu-ul li {
@@ -95,16 +71,12 @@ main {
 }
 
 #menu-ul li {
-<<<<<<< HEAD
 
-=======
->>>>>>> 8101525f558391a1e07a9162a7424f0714e8ffd9
     display: inline-block;
     color: #010846;
     margin-left: 20px;
 }
 
-<<<<<<< HEAD
 #menu-ul li a:hover {
     color: #0faf17
 
@@ -122,16 +94,6 @@ main {
 
 a {}
 
-=======
-#menu-ul li a {
-    color: #010846;
-    text-decoration: none ;
-    font-size: 18px;
-    text-transform: capitalize;
-    
-}
-
->>>>>>> 8101525f558391a1e07a9162a7424f0714e8ffd9
 
 
 /* ============================================= */
@@ -155,7 +117,6 @@ a {}
      border-bottom: 3px solid;
 }
 
-<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -223,11 +184,3 @@ body {
 
 
 }
-
-.body {
-    background-color: #010846;
-}
-=======
-
-
->>>>>>> 8101525f558391a1e07a9162a7424f0714e8ffd9
