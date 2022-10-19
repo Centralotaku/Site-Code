@@ -1,0 +1,20 @@
+Moises:
+Salve guisão! Atualizei os seguintes itens:
+
+Removi o escopo do site do head, e atualizei os esquemas no head (em beckup.html deixei esquema que vc tinha colocado)
+
+
+Haviam algumas Divs que não fechavam (</div>). Daí eu coloquei as tags de fechamento. 
+Ajustei a identação do código. 
+
+A tag <header> tinha 02 tags de fechamento, limpei isso tbm. 
+Atualizei outras tags de fechamento na div
+Separei a div header-1 da header-2 (a header-2 estava dentro da header-1)
+
+obs: tem uma tag <main> no final, que está vazia, mas não removi, pensei que talvez você tenha algum objetivo com ela.
+
+Centralizei a logo
+
+Adicionei comentários
+
+criei uma classe para menu-ul (não é foi essencial, mas preferi kskakas)
