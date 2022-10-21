@@ -2,7 +2,7 @@ body {
     width: 200%;
     height: 100%;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sauce one';
 }
 
 ul {
@@ -46,6 +46,15 @@ main {
 /* ============================================= */
                 /* Header-2 */
 /* ============================================= */ 
+
+.header-2 {
+
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 3px solid #efefef;
+    margin: 0 auto;
+}
+
 .menu {
     height: 37px;
     width: 479px;
@@ -56,23 +65,11 @@ main {
 
 }
 
-#menu-ul {
-    position: absolute;
-    width: 479px;
-    height: 37px;
-
-
-
-}
-
-#menu-ul li {
-   margin: 5px;
-}
 
 #menu-ul li {
 
     display: inline-block;
-    margin-left: 20px;
+    color: beige;
 }
 
 #menu-ul li a:hover {
@@ -88,11 +85,15 @@ main {
 
 
 #menu-ul li a {
-    height: 37px;
-    width: 479px;
-    left: 196px;
-    top: 82px;
+    height: 301px;
+    width: 1140px;
+    left: 301px;
+    top: 133px;
     border-radius: none;
+    color: beige;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
 
 
 }
@@ -106,7 +107,8 @@ main {
     left: 196px;
     top: 82px;
     border-radius: none;
-    stroke: #fafafa;
+    stroke: #56ff08;
+    z-index: auto;
  
 }
 
@@ -137,8 +139,8 @@ main {
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
-    width: 100vw;
+    height: 1080px;
+    width: 1920px;
 }
 
 .content {
@@ -209,11 +211,16 @@ body {
 
 
 .menu {
+height: 112px;
+width: 1140px;
+left: 301px;
+top: 82px;
+border-radius: nullpx;
+}
 
-    height: 37px;
-    width: 479px;
-    left: 196px;
-    top: 82px;
-    border-radius: nullpx;
+.cool-100 {
 
+    width: 100%;
+    float: left;
+    position: relative;
 }
