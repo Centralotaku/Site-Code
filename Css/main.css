@@ -15,12 +15,14 @@ ul {
         /* Header-1 */
 /* ================================ */
 
+
+
 .header-1{
     position: absolute;
     width: 40px;
     height: 48px;
     left: 142px;
-    top: 122px;
+    top: 90px;
 
 }
 
@@ -37,8 +39,9 @@ ul {
 main {
     position: relative;
     float: left;
-    width: 980px;
-    margin: 0 auto
+    width: 1080px;
+    height: 1080px;
+    margin: 0 auto;
 }
 
 
@@ -56,46 +59,15 @@ main {
 }
 
 .menu {
-    height: 37px;
+    position: absolute;
     width: 479px;
-    left: 196px;
-    top: 82px;
-    border-radius: none;
-    
-
+    height: 37px;
 }
 
 
 #menu-ul li {
 
     display: inline-block;
-    color: beige;
-}
-
-#menu-ul li a:hover {
-   height: 37px;
-    width: 479px;
-    left: 196px;
-    top: 82px;
-    border-radius: none;
-
-
-}
-
-
-
-#menu-ul li a {
-    height: 301px;
-    width: 1140px;
-    left: 301px;
-    top: 133px;
-    border-radius: none;
-    color: beige;
-    text-decoration: none;
-    font-size: 20px;
-    margin-left: 40px;
-
-
 }
 
 
@@ -105,12 +77,27 @@ main {
     height: 37px;
     width: 479px;
     left: 196px;
-    top: 82px;
-    border-radius: none;
-    stroke: #56ff08;
-    z-index: auto;
- 
+    top: 92px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 119px;
+    font-family: 'Open Sauce One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: right;
+    line-height: 111.7%;
 }
+
+.menu-ul li a:hover {
+
+    color: #2ACE31;
+    border-bottom: 1px solid #2ACE31;
+
+    
+}
+
+
 
 
 
@@ -211,16 +198,15 @@ body {
 
 
 .menu {
-height: 112px;
-width: 1140px;
-left: 301px;
-top: 82px;
-border-radius: nullpx;
+
+height: 112px;
+
+width: 1140px;
+
+left: 301px;
+
+top: 82px;
+
+border-radius: nullpx;
 }
 
-.cool-100 {
-
-    width: 100%;
-    float: left;
-    position: relative;
-}
